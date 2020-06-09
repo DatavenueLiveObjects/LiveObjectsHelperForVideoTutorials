@@ -1,0 +1,4 @@
+- MQTT-Spy Special patched version for portable and proxy support: https://github.com/olivm-fr/paho.mqtt-spy/releases
+- MQTT-Spy Full guide: https://github.com/olivm-fr/paho.mqtt-spy/raw/master/0-examples/README.docx
+- TLS CA file: https://dl.cacerts.digicert.com/DigiCertSHA2SecureServerCA.crt
+- Full developper guide : https://liveobjects.orange-business.com/doc/html/lo_manual_v2.html#EXTERNAL_CONNECTOR_MODE

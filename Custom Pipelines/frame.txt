@@ -1,0 +1,23 @@
+/dev/data
+{
+    "value":   { "payload": "9X0N9ovJBvwcZd3RrGcff3ZxglbLuq/y934JtIwzjdNTeKy/0cG9Xk7fQZytyvNW" },
+    "location": { "lat": 48.86667, "lon": 2.33333 },
+    "model":    "demo",
+    "tags":     [ "value_is_ciphered" ]
+}
+
+
+{
+    "name": "deciphering pipeline",
+    "description": "pipeline to decipher",
+    "priorityLevel": 10,
+    "enabled": true,
+    "steps" : [ {
+        "type": "externalTransformation",
+        "url": "https://php.noprod-b.kmt.orange.com/decrypt.php"
+    }, {
+        "type": "externalTransformation",
+        "url": "https://nodered.noprod-b.kmt.orange.com/geoenrich"
+    } ]
+}
+

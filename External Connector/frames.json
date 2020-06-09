@@ -1,0 +1,38 @@
+{
+    "status": "ONLINE",
+    "capabilities": {
+        "command": {
+            "available": true
+        }
+    },
+}
+
+{
+    "model": "data_v0",
+    "value": {
+        "temperature": 14.6,
+        "battery": 53,
+        "messageAlert": "low battery"
+    },
+    "location": {
+        "lat": 48.86667,
+        "lon": 2.33333,
+        "alt": 35.2,
+        "accuracy": 12.3,
+        "provider": "GPS"
+    },
+    "tags": [
+        "fromconnector"
+    ]
+}
+
+{
+    "id": "",
+    "nodeId": "mydevice1",
+    "response": {
+        "status": "ok",
+        "message": {
+            "auto-close": true
+        }
+    }
+}

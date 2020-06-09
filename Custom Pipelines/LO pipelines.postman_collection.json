@@ -1,0 +1,288 @@
+{
+	"info": {
+		"_postman_id": "16dc8430-785a-47af-a238-f3d55c30fbb1",
+		"name": "LO pipelines",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Pipeline Create",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-API-KEY",
+						"value": "{{X-API-KEY}}"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"deciphering pipeline\",\r\n    \"description\": \"pipeline to decipher\",\r\n    \"priorityLevel\": 10,\r\n    \"enabled\": true,\r\n    \"steps\" : [ {\r\n        \"type\": \"externalTransformation\",\r\n        \"url\": \"https://php.noprod-b.kmt.orange.com/decrypt.php\"\r\n    }, {\r\n        \"type\": \"externalTransformation\",\r\n        \"url\": \"https://nodered.noprod-b.kmt.orange.com/geoenrich\"\r\n    } ]\r\n}"
+				},
+				"url": {
+					"raw": "{{LO}}/v0/pipelines ",
+					"host": [
+						"{{LO}}"
+					],
+					"path": [
+						"v0",
+						"pipelines "
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pipeline Create for Connector",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-API-KEY",
+						"value": "{{X-API-KEY}}"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"deciphering pipeline\",\r\n    \"description\": \"pipeline to decipher\",\r\n    \"priorityLevel\": 10,\r\n    \"enabled\": true,\r\n    \"filter\": {\r\n        \"encodings\": [ \"aes\" ]\r\n    },\r\n    \"steps\" : [ {\r\n        \"type\": \"externalTransformation\",\r\n        \"url\": \"https://php.noprod-b.kmt.orange.com/decrypt.php\"\r\n    }, {\r\n        \"type\": \"externalTransformation\",\r\n        \"url\": \"https://nodered.noprod-b.kmt.orange.com/geoenrich\"\r\n    } ]\r\n}"
+				},
+				"url": {
+					"raw": "{{LO}}/v0/pipelines ",
+					"host": [
+						"{{LO}}"
+					],
+					"path": [
+						"v0",
+						"pipelines "
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pipeline List",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-API-KEY",
+						"value": "{{X-API-KEY}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{LO}}/v0/pipelines ",
+					"host": [
+						"{{LO}}"
+					],
+					"path": [
+						"v0",
+						"pipelines "
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pipeline Edit",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "X-API-KEY",
+						"value": "{{X-API-KEY}}"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"id\": \"5e53ec339810d78419547ef6\",\r\n    \"name\": \"deciphering pipeline\",\r\n    \"description\": \"pipeline to decipher\",\r\n    \"priorityLevel\": 10,\r\n    \"enabled\": true,\r\n    \"filter\": {\r\n        \"encodings\": [ \"aes\" ]\r\n    },\r\n    \"steps\" : [  {\r\n        \"type\": \"externalTransformation\",\r\n        \"url\": \"http://zron.fr/decrypt.php\"\r\n    }, {\r\n        \"type\": \"externalTransformation\",\r\n        \"url\": \"https://nodered.noprod-b.kmt.orange.com/geoenrich\"\r\n    } ]\r\n}"
+				},
+				"url": {
+					"raw": "{{LO}}/v0/pipelines/5e53ec339810d78419547ef6",
+					"host": [
+						"{{LO}}"
+					],
+					"path": [
+						"v0",
+						"pipelines",
+						"5e53ec339810d78419547ef6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pipeline Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "X-API-KEY",
+						"value": "{{X-API-KEY}}"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{LO}}/v0/pipelines/5e90453f58358e43c51c8725",
+					"host": [
+						"{{LO}}"
+					],
+					"path": [
+						"v0",
+						"pipelines",
+						"5e90453f58358e43c51c8725"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "WS Encrypt",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://php.noprod-b.kmt.orange.com/decrypt.php?encrypt={\"secret-data\":42}",
+					"protocol": "https",
+					"host": [
+						"php",
+						"noprod-b",
+						"kmt",
+						"orange",
+						"com"
+					],
+					"path": [
+						"decrypt.php"
+					],
+					"query": [
+						{
+							"key": "encrypt",
+							"value": "{\"secret-data\":42}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "WS Decrypt",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"type\": \"dataMessage\",\n    \"version\": 1,\n    \"streamId\": \"device-001-alarm\",\n    \"timestamp\": \"2019-12-10T13:57:03Z\",\n    \"model\": \"v1\",\n    \"value\": {\n        \"payload\": \"9X0N9ovJBvwcZd3RrGcff3ZxglbLuq/y934JtIwzjdNTeKy/0cG9Xk7fQZytyvNW\"\n    },\n    \"metadata\": {\n        \"encoding\": \"aec\"\n    },\n    \"tags\": [\"tag1\", \"tag2\"]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://php.noprod-b.kmt.orange.com/decrypt.php",
+					"protocol": "https",
+					"host": [
+						"php",
+						"noprod-b",
+						"kmt",
+						"orange",
+						"com"
+					],
+					"path": [
+						"decrypt.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "WS NodeRed",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"location\": {\n        \"lat\": 45.191058,\n        \"lon\": 5.7306128\n    },\n    \"value\": {\n    \t\"air_quality\": 4.54\n    },\n    \"tags\": [ \"external-sensor\" ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://nodered.kermit-noprod-b.itn.intraorange/geoenrich",
+					"protocol": "https",
+					"host": [
+						"nodered",
+						"kermit-noprod-b",
+						"itn",
+						"intraorange"
+					],
+					"path": [
+						"geoenrich"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

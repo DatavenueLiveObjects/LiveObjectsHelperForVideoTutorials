@@ -10,7 +10,7 @@ Get the resources used in the video https://youtu.be/nvNhTMuTyJU .
 - links
 
 ## Custom Pipelines
-Get the resources used in the video to be posted on Youtube.
+Get the resources used in the video https://youtu.be/rpqjJiu0H3A .
 
 - Postman collection to test webservices
 - NodeRed flow

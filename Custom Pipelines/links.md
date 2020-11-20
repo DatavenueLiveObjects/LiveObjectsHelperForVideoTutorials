@@ -1,3 +1,15 @@
+# LiveObjectsHelper
+
+- Software Name : Live Objects Helper
+- Version: 1.0
+- SPDX-FileCopyrightText: Copyright (c) 2020 Orange Business Services
+- SPDX-License-Identifier: BSD-3-Clause
+- This software is distributed under the BSD-3-Clause,
+the text of which is available at https://opensource.org/licenses/BSD-3-Clause
+or see the "LICENCE" file for more details.
+- Software description: Various resources to help using Orange Live Objects
+
+## Related links
 - MQTT-Spy Special patched version for portable and proxy support: https://github.com/olivm-fr/paho.mqtt-spy/releases
 - MQTT-Spy Full guide: https://github.com/olivm-fr/paho.mqtt-spy/raw/master/0-examples/README.docx
 - TLS CA file: https://dl.cacerts.digicert.com/DigiCertSHA2SecureServerCA.crt

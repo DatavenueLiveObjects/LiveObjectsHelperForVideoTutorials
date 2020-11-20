@@ -1,5 +1,16 @@
 <?php
 
+/*
+ * Software Name : Live Objects Helper / Custom Pipelines
+ * Version: 1.0
+ * SPDX-FileCopyrightText: Copyright (c) 2020 Orange Business Services
+ * SPDX-License-Identifier: BSD-3-Clause
+ * This software is distributed under the BSD-3-Clause,
+ * the text of which is available at https://opensource.org/licenses/BSD-3-Clause
+ * or see the "LICENCE" file for more details.
+ * Software description: Resources to help using Orange Live Objects Custom Pipelines
+ */
+
 $encryption_key = "MY_encryption_key-14829101847124";    // 256 bits
 $iv = "EATNRvodplet-129";   // 128 bits
 // openssl_random_pseudo_bytes($iv_size, $strong);

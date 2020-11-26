@@ -26,7 +26,7 @@ Get the resources used in the video https://youtu.be/rpqjJiu0H3A .
 - links
 
 ## CellID Geolocation
-Get the resources used in the video to be published .
+Get the resources used in the video https://youtu.be/Ps0NpuCyiHw  .
 
 - Arduino MKR GSM 1400 library file used in the demo
 - links

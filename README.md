@@ -24,3 +24,9 @@ Get the resources used in the video https://youtu.be/rpqjJiu0H3A .
 - PHP sample
 - frames used in the demo
 - links
+
+## CellID Geolocation
+Get the resources used in the video to be published .
+
+- Arduino MKR GSM 1400 library file used in the demo
+- links

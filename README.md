@@ -2,7 +2,7 @@
 
 - Software Name : Live Objects Helper
 - Version: 1.0
-- SPDX-FileCopyrightText: Copyright (c) 2020 Orange Business Services
+- SPDX-FileCopyrightText: Copyright (c) 2020-2021 Orange Business Services
 - SPDX-License-Identifier: BSD-3-Clause
 - This software is distributed under the BSD-3-Clause,
 the text of which is available at https://opensource.org/licenses/BSD-3-Clause
@@ -29,4 +29,8 @@ Get the resources used in the video https://youtu.be/rpqjJiu0H3A .
 Get the resources used in the video https://youtu.be/Ps0NpuCyiHw  .
 
 - Arduino MKR GSM 1400 library file used in the demo
+- links
+
+## Remote Commands
+Get the resources used in the video < to be published >
 - links

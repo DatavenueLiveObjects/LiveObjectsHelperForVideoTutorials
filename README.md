@@ -32,5 +32,5 @@ Get the resources used in the video https://youtu.be/Ps0NpuCyiHw  .
 - links
 
 ## Remote Commands
-Get the resources used in the video < to be published >
+Get the resources used in the video https://youtu.be/2YOFcHLEQGs .
 - links

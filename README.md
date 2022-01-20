@@ -9,28 +9,37 @@ the text of which is available at https://opensource.org/licenses/BSD-3-Clause
 or see the "LICENCE" file for more details.
 - Software description: Various resources to help using Orange Live Objects
 
+This repository provides resources, that are presented in <a href="https://www.youtube.com/channel/UCqiOhIRIpjRvR3Bw0hMLciw" target="_blank">Orange Live Objects channel on Youtube</a>, and that will allow one to make use of powerful extended features. The external connector brings cloud-to-cloud and IoT-devices-gateway connectivity in a native way. The custom pipelines and the CellID geolocation add a great way to amend the data while in transit, a just-in-time enrichment of device messages before they are stored or forwarded. While field device management is made easy with remote commands, either one-by-one or with massive amounts of objects.
 
 ## External Connector
-Get the resources used in the video https://youtu.be/nvNhTMuTyJU .
+You want to use some devices, but you cannot adapt their firmware, or their protocol is not natively understood by Live Objects? The external connector is made for you. You will be able to collect data and do device management of those devices through their cloud.
+
+Get in the corresponding folder the resources used in the video https://youtu.be/nvNhTMuTyJU .
 
 - frames used in the demo
-- links
+- reference links
 
 ## Custom Pipelines
-Get the resources used in the video https://youtu.be/rpqjJiu0H3A .
+You can enrich you IoT data with external services, decode or transform the messages using an external development.
+
+Get in the corresponding folder the resources used in the video https://youtu.be/rpqjJiu0H3A .
 
 - Postman collection to test webservices
 - NodeRed flow
 - PHP sample
 - frames used in the demo
-- links
+- reference links
 
 ## CellID Geolocation
-Get the resources used in the video https://youtu.be/Ps0NpuCyiHw  .
+Learn how Live Objects can localise your device when receiving cell-ID info.
+
+Get in the corresponding folder the resources used in the video https://youtu.be/Ps0NpuCyiHw  .
 
 - Arduino MKR GSM 1400 library file used in the demo
-- links
+- reference links
 
 ## Remote Commands
-Get the resources used in the video https://youtu.be/2YOFcHLEQGs .
-- links
+Have a closer look on device management & remote actions, applied to MQTT / SMS / LoRa / ExtConnector devices. Learn events and campaigns.
+
+Get in the corresponding folder the resources used in the video https://youtu.be/2YOFcHLEQGs .
+- reference links

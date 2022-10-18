@@ -47,5 +47,5 @@ Get in the [corresponding folder](Remote%20Commands) the resources used in the v
 ## Lightweight-M2M
 LwM2M is the new feature allowing cellular devices to connect to Live Objects in a standard and efficient way.
 
-Get in the [corresponding folder](LwM2M) the resources used in the video (soon to be published)
+Get in the [corresponding folder](LwM2M) the resources used in the video https://youtu.be/-DlmF70aKLQ .
 - reference links

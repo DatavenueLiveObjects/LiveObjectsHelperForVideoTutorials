@@ -49,3 +49,9 @@ LwM2M is the new feature allowing cellular devices to connect to Live Objects in
 
 Get in the [corresponding folder](LwM2M) the resources used in the video https://youtu.be/-DlmF70aKLQ .
 - reference links
+
+## Lightweight-M2M, Bootstrap & Fota
+LwM2M offers extended features for security, provisioning and firmware management. Live Objects automates those.
+
+Get in the [corresponding folder](LwM2M BsFota) the resources used in the video https://youtu.be/i7LGEnWS-fE .
+- reference links
